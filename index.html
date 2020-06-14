@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Lilley</title>
+
+  <base href="https://lilley.io/" target="_blank">
+
+  <meta property="og:title" content="Lilley" />
+  <meta property="og:site_name" content="Lilley" />
+  <meta property="og:description" content="Matt Lilley's full-stack developer portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lilley.io" />
+  <meta property="og:image" content="https://lilley.io/img/logo_landscape.png" />
+
+  <meta name="twitter:title" content="Lilley" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@mklilley" />
+  <meta name="twitter:description" content="Matt Lilley's full-stack developer portfolio" />
+  <meta name="twitter:image" content="https://lilley.io/img/logo_landscape.png" />
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Source+Code+Pro:400" rel="stylesheet">
+
+  <link href="css/styles.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+  <script type="text/javascript" src="js/data.js"></script>
+
+  <template id="main-template">
+
+    <div class="view">
+
+      <div class="view-content">
+        <div class="page">
+          <div class="page-content"></div>
+        </div>
+        <div class="header"></div>
+        <img src="img/logo.svg" onclick="Router.navigate('/');" />
+        <div class="nav">
+          <p id="info-nav" onclick="Router.navigate('info');">i</p>
+          <p id="code-nav" onclick="Router.navigate('code');">
+            <>
+          </p>
+          <p id="contact-nav" onclick="Router.navigate('contact');">@</p>
+        </div>
+
+      </div>
+
+
+
+      <h2 style="position:absolute;top:0;height:0;font-weight:bold;visibility:hidden">.</h2>
+
+    </div>
+
+    <div class="view error hide">
+      <h1>404 <br> Not Found</h1>
+    </div>
+
+  </template>
+
+  <template id="info-template">
+    <div class="full-card info">
+      <img src="img/matt.jpg" onload="imgLoaded(this)" />
+      <p class="code info">Matt is a physicist by training, having spent 9 years working in academia on fusion energy research. In 2013, inspired by the idea of becoming a self-funded researcher, Matt began learning to code cross platform Apps using
+        HTML5. Since then, Matt has worked on several projects in small teams gaining experience across the spectrum of front and back end development.</p>
+    </div>
+  </template>
+
+  <template id="code-template">
+    <div class="card">
+      <h2></h2>
+      <a href="" target="_blank">
+        <div class="image"><img src="" onload="imgLoaded(this)" /></div>
+      </a>
+      <pre><code></code></pre>
+
+
+    </div>
+
+  </template>
+
+  <template id="contact-template">
+    <div class="full-card contact">
+      <p><strong>@</strong> <a class="code contact" href="mailto:matt@lilley.io" target="_blank">matt@lilley.io</a></p>
+      <p><i class="icon-twitter"></i> <a class="code contact" href="https://twitter.com/mklilley" target="_blank">@mklilley</a></p>
+      <p><i class="icon-github"></i> <a class="code contact" href="https://github.com/mklilley" target="_blank">mklilley</a></p>
+    </div>
+  </template>
+
+</body>
+
+
+
+</html>
