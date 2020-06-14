@@ -3,3 +3,4 @@ minified
 .DS_Store
 build
 uploads
+.well-known/
