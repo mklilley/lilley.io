@@ -1,2 +1,3 @@
 # lilley.io
-My portfolio website code
+
+This branch contains code for the holding page of my portfolio website.
