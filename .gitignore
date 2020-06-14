@@ -1,0 +1,5 @@
+node_modules
+minified
+.DS_Store
+build
+uploads
