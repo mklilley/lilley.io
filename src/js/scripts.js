@@ -11,11 +11,11 @@
   //var templates;
   window.imgLoaded = imgLoaded;
 
-  window.Router = new router();
+  window.router = new Router();
 
-  Router.config({ mode: "history" });
+  router.config({ mode: "history" });
 
-  Router.add(/info/, navHandler)
+  router.add(/info/, navHandler)
     .add(/code/, navHandler)
     .add(/contact/, navHandler)
     .add(homeHandler);
@@ -35,9 +35,9 @@
     content = document.querySelectorAll(".view-content")[0];
     navs = document.querySelectorAll(".nav p");
 
-    Router.listen();
+    router.listen();
 
-    Router.check(Router.getFragment());
+    router.check(router.getFragment());
   }
 
   function imgLoaded(img) {
@@ -89,7 +89,7 @@
   }
 
   function navHandler() {
-    var route = Router.getFragment();
+    var route = router.getFragment();
 
     templateTargets.header.innerHTML =
       "<h1>" + route.charAt(0).toUpperCase() + route.slice(1);
@@ -103,7 +103,7 @@
   }
 
   function homeHandler() {
-    if (Router.getFragment() === "") {
+    if (router.getFragment() === "") {
       templateTargets.page.innerHTML = "";
       content.classList.remove("expand");
       templateTargets.header.classList.remove("expand");
@@ -119,7 +119,7 @@
 // Router Adapted from http://krasimirtsonev.com/blog/article/A-modern-JavaScript-router-in-100-lines-history-api-pushState-hash-url
 
 "use strict";
-function router() {
+function Router() {
   return {
     routes: [],
     mode: null,
