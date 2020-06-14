@@ -1,0 +1,16 @@
+/*---------header-----------*/
+.header {
+  @extend .flex-center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transition: opacity $fadeTime ease-out 0s;
+  height: $logoExpandedWidth/3;
+  max-height: $logoMaxWidth/3;
+  cursor: default;
+  &.expand {
+    opacity: 1;
+    transition: opacity $fadeTime ease-out $animateTime;
+  }
+}

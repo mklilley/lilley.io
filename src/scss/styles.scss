@@ -1,0 +1,63 @@
+@import "variables";
+@import "resets";
+@import "icons";
+/**
+   * Main css
+   * --------------------------------------------------
+   *
+   */
+html,
+body,
+pre,
+code {
+  font-family: $body-font, Inconsolata, Consolas, monospace, sans-serif;
+  color: $body-color;
+  font-size: $body-size;
+  line-height: $body-line-height;
+}
+
+h1,
+h2 {
+  font-family: $header-font, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: $header-color;
+}
+h1 {
+  font-size: $header-size-h1;
+}
+h2 {
+  font-size: $header-size-h2;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+  color: inherit;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.flex-center {
+  position: absolute;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+@import "navigation";
+@import "error";
+@import "view";
+@import "header";
+@import "content";
+@import "cards";
+@media screen and (min-width: $logoMaxWidth/$logoExpandedWidthAsFraction) {
+  .view .view-content .page {
+    padding: $logoMaxWidth/3;
+  }
+}

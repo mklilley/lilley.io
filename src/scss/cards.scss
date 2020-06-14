@@ -1,0 +1,82 @@
+/*---------cards-----------*/
+.card {
+  position: relative;
+  box-sizing: border-box;
+  background-color: white; //border:solid 1px #777777;
+  width: $cardMaxWidth;
+  padding: 5px;
+  max-width: calc(100% - #{2 * $frameMarginThickness});
+  min-height: calc(100% - #{2 * $frameMarginThickness});
+  margin: $frameMarginThickness;
+  .image {
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    > img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+      opacity: 0;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -ms-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+    &.loaded {
+      > img {
+        opacity: 1;
+      }
+    }
+  }
+  > h2 {
+    margin-bottom: 10px;
+  }
+  pre {
+    padding-top: 10px;
+  }
+  code {
+    .indent {
+      padding-left: 25px;
+      display: inline-block;
+    }
+  }
+}
+.full-card {
+  @extend .flex-center;
+  position: relative;
+  height: auto;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 5px;
+  width: calc(100% - #{2 * $frameMarginThickness});
+  min-height: calc(100% - #{2 * $frameMarginThickness});
+  margin: $frameMarginThickness;
+  &.contact {
+    flex-direction: column;
+  }
+  &.full-card.info {
+    flex-wrap: wrap;
+  }
+  p {
+    margin: 10px;
+  }
+  img {
+    width: 100%;
+    max-width: $logoMaxWidth;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  &.loaded {
+    img {
+      opacity: 1;
+    }
+  }
+  .code {
+    width: 100%;
+    max-width: 500px;
+  }
+}

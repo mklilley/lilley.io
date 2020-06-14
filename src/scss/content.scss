@@ -1,0 +1,58 @@
+/*---------content-----------*/
+.view-content {
+  position: relative;
+  height: $logoAspectRatio * $logoMaxWidth;
+  width: $logoMaxWidth;
+  transition: width $animateTime ease-out $fadeTime,
+    height $animateTime ease-out $fadeTime;
+  > img {
+    transition: width $animateTime ease-out $fadeTime,
+      max-width 0s ease-out $fadeTime;
+    width: 100%;
+    max-width: $logoMaxWidth;
+    position: absolute;
+    bottom: 0;
+  }
+  > .page {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: $logoExpandedWidth/3;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s linear $fadeTime, opacity $fadeTime ease-out;
+    background-color: white;
+    overflow: hidden;
+  }
+  &.expand {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: width $animateTime ease-out, height $animateTime ease-out;
+    > img {
+      width: $logoExpandedWidth;
+      transition: width $animateTime ease-out;
+    }
+    > .page {
+      opacity: 1;
+      transition: visibility 0s linear 0s,
+        opacity $fadeTime ease-out $animateTime;
+      visibility: visible;
+    }
+  }
+  .page-content {
+    @extend .flex-center;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: $frameMarginThickness/2;
+    height: 100%;
+    width: 100%;
+    background-color: $frameColor;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}

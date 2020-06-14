@@ -1,0 +1,20 @@
+{
+  "name": "lilley.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-clean-css": "4.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-minify": "3.1.0",
+    "gulp-sass": "4.1.0",
+    "http-server": "^0.12.3"
+  }
+}
