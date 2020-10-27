@@ -44,5 +44,12 @@ templateData.code = [
     code:
       "Completion : 09/2014<br>Front-end  : 100%<br>Back-end   : 0%<br>Design     : 100%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- PHP</span><br><span class='indent'>- WordPress</span><br>Summary    : ><br><span class='indent'>Created a WordPress site using an existing template. Hacked the template to create additional features</span>",
     a: "http://mattlilley.com"
+  },
+  {
+    h2: "Play with Particles",
+    img: "img/playwithparticles.png",
+    code:
+      "Completion : 09/2014<br>Front-end  : 100%<br>Back-end   : 0%<br>Design     : 100%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br>Summary    : ><br><span class='indent'>Created an in-browser physics app that allows a user to control the motion of particles using clicks/touches. The front end is made with HTML5 and the backend is provided by <a href='https://github.com/mklilley/orbit' target='_blank'>GitHub pages</a>.</span>",
+    a: "https://mklilley.github.io/orbit/"
   }
 ];
