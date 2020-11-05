@@ -8,6 +8,14 @@ var templateTagMap = {
 
 templateData.code = [
   {
+    h2: "Project Ida",
+    img: "img/projectida.png",
+    code:
+      "Completion : 08/2020<br>Front-end  : 20%<br>Back-end   : 5%<br>Design     : 10%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- Drupal</span><br>Summary    : ><br><span class='indent'>Collaborated with colleagues to set up an open science website. My role has been to improve and maintain the front end using the Drupal CMS and augment using custom HTML and CSS where necessary.</span>",
+    a: "https://lilley.io"
+  },
+
+  {
     h2: "Lilley.io",
     img: "img/logo_landscape.png",
     code:
