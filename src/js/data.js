@@ -8,11 +8,18 @@ var templateTagMap = {
 
 templateData.code = [
   {
+    h2: "Flashee",
+    img: "img/flashee.png",
+    code:
+      "Completion : 12/2020<br>Front-end  : 100%<br>Back-end   : 50%<br>Design     : 100%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- JavaScript</span><br><span class='indent'>- Vue</span><br><span class='indent'>- Node</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created a flashcard webapp using Vue.js for the front end. I adapted an open-source json storage system (jsonbox) based on Nodejs and MongoDB for backend storage. </span>",
+    a: "https://flashee.lilley.io/"
+  },
+  {
     h2: "Project Ida",
     img: "img/projectida.png",
     code:
       "Completion : 08/2020<br>Front-end  : 20%<br>Back-end   : 5%<br>Design     : 10%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- Drupal</span><br>Summary    : ><br><span class='indent'>Collaborated with colleagues to set up an open science website. My role has been to improve and maintain the front end using the Drupal CMS and augment using custom HTML and CSS where necessary.</span>",
-    a: "https://lilley.io"
+    a: "https://www.project-ida.org/"
   },
 
   {
