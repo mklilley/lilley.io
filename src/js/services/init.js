@@ -80,6 +80,14 @@
       var clone = document.importNode(t.content, true);
       templateTargets[target].appendChild(clone);
     }
+
+    var imgsLoaded = document.querySelectorAll(".img-load");
+    for (var img of imgsLoaded) {
+      img.addEventListener("load", function(event){
+        imgLoaded(event.target);
+      },{once : true});
+    }
+    
   }
 
   function navSwitch(name) {
