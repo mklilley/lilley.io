@@ -35,6 +35,17 @@
     content = document.querySelectorAll(".view-content")[0];
     navs = document.querySelectorAll(".nav p");
 
+    var logo       = document.querySelector("#logo");
+    var infoNav    = document.querySelector("#info-nav");
+    var codeNav    = document.querySelector("#code-nav");
+    var contactNav = document.querySelector("#contact-nav");
+
+    logo.addEventListener("click", function(){router.navigate('/');});
+    infoNav.addEventListener("click", function(){router.navigate('info');});
+    codeNav.addEventListener("click", function(){router.navigate('code');});
+    contactNav.addEventListener("click", function(){router.navigate('contact');});
+
+
     router.listen();
 
     router.check(router.getFragment());
