@@ -45,7 +45,6 @@
     codeNav.addEventListener("click", function(){router.navigate('code');});
     contactNav.addEventListener("click", function(){router.navigate('contact');});
 
-
     router.listen();
 
     router.check(router.getFragment());
