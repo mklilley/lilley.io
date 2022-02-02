@@ -50,7 +50,7 @@ templateData.code = [
     img: "img/squidler.png",
     code:
       "Completion : 10/2016<br>Front-end  : 100%<br>Back-end   : 60%<br>Design     : 15%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- Sass</span><br><span class='indent'>- Angular</span><br><span class='indent'>- Ionic</span><br><span class='indent'>- Node</span><br><span class='indent'>- ActionHeroJS</span><br><span class='indent'>- Redis</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created hybrid app with another developer and designer. Used Ionic framework to run the app on web, Android and iOS. Implemented node API server using ActionHeroJS framework. Utilised very fast Redis database for text and MongoDB for media files with TTL</span>",
-    a: "https://squidler.com",
+    a: "https://web.archive.org/web/20201229152017if_/http://squidler.com/",
   },
 
   {
