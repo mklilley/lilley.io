@@ -19,4 +19,4 @@ Notes:
 
 ## HTML
 
-- The only thing you need to remember when in local development mode is to comment out the `<base>` tag on `line 28` so that the router doesn't give an error
+- The only thing you need to remember when in local development mode is to comment out the `<base>` tag on `line 30` so that the router doesn't give an error
