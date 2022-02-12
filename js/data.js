@@ -11,14 +11,14 @@ templateData.code = [
     h2: "Swipee",
     img: "img/swipee.png",
     code:
-      "Completion : 03/2021<br>Front-end  : 100%<br>Back-end   : 70%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/swipee' target='_blank' rel='noopener'>mklilley/swipee</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- JavaScript</span><br><span class='indent'>- Vue</span><br><span class='indent'>- Node</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created a webapp using Vue.js for the front end and Nodejs and express for the backend. I adapted an open-source json storage system (jsonbox) based on Nodejs and MongoDB for backend storage and used Stripe API to take payments. </span>",
+      "Completion : 03/2021<br>Front-end  : 100%<br>Back-end   : 70%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/swipee' target='_blank' rel='noopener'>swipee</a> <i class='icon-github'></i> <br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- JavaScript</span><br><span class='indent'>- Vue</span><br><span class='indent'>- Node</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created a webapp using Vue.js for the front end and Nodejs and express for the backend. I adapted an open-source json storage system (jsonbox) based on Nodejs and MongoDB for backend storage and used Stripe API to take payments. </span>",
     a: "https://swipee.lilley.io/",
   },
   {
     h2: "Flashee",
     img: "img/flashee.png",
     code:
-      "Completion : 12/2020<br>Front-end  : 100%<br>Back-end   : 50%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/flashee' target='_blank' rel='noopener'>mklilley/flashee</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- JavaScript</span><br><span class='indent'>- Vue</span><br><span class='indent'>- Node</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created a flashcard webapp using Vue.js for the front end. I adapted an open-source json storage system (jsonbox) based on Nodejs and MongoDB for backend storage. </span>",
+      "Completion : 12/2020<br>Front-end  : 100%<br>Back-end   : 50%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/flashee' target='_blank' rel='noopener'>flashee</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br/><span class='indent'>- JavaScript</span><br><span class='indent'>- Vue</span><br><span class='indent'>- Node</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created a flashcard webapp using Vue.js for the front end. I adapted an open-source json storage system (jsonbox) based on Nodejs and MongoDB for backend storage. </span>",
     a: "https://flashee.lilley.io/",
   },
   {
@@ -33,7 +33,7 @@ templateData.code = [
     h2: "Lilley.io",
     img: "img/logo_landscape.png",
     code:
-      "Completion : 12/2016<br>Front-end  : 100%<br>Back-end   : 100%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/lilley.io' target='_blank' rel='noopener'>mklilley/lilley.io</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- Debian</span><br><span class='indent'>- Nginx</span><br>Summary    : ><br><span class='indent'>Set-up secure https web server image capable of 'click-to-deploy', using Mail-in-a-box to create mail and DNS services. Went back to basics and made the site with pure HTML5</span>",
+      "Completion : 12/2016<br>Front-end  : 100%<br>Back-end   : 100%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/lilley.io' target='_blank' rel='noopener'>lilley.io</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- Debian</span><br><span class='indent'>- Nginx</span><br>Summary    : ><br><span class='indent'>Set-up secure https web server image capable of 'click-to-deploy', using Mail-in-a-box to create mail and DNS services. Went back to basics and made the site with pure HTML5</span>",
     a: "https://lilley.io",
   },
 
@@ -49,7 +49,7 @@ templateData.code = [
     h2: "Squidler",
     img: "img/squidler.png",
     code:
-      "Completion : 10/2016<br>Front-end  : 100%<br>Back-end   : 60%<br>Design     : 15%<br>Code       : <a href='https://github.com/mklilley/squidler' target='_blank' rel='noopener'>mklilley/squidler</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- Sass</span><br><span class='indent'>- Angular</span><br><span class='indent'>- Ionic</span><br><span class='indent'>- Node</span><br><span class='indent'>- ActionHeroJS</span><br><span class='indent'>- Redis</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created hybrid app with another developer and designer. Used Ionic framework to run the app on web, Android and iOS. Implemented node API server using ActionHeroJS framework. Utilised very fast Redis database for text and MongoDB for media files with TTL</span>",
+      "Completion : 10/2016<br>Front-end  : 100%<br>Back-end   : 60%<br>Design     : 15%<br>Code       : <a href='https://github.com/mklilley/squidler' target='_blank' rel='noopener'>squidler</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- Sass</span><br><span class='indent'>- Angular</span><br><span class='indent'>- Ionic</span><br><span class='indent'>- Node</span><br><span class='indent'>- ActionHeroJS</span><br><span class='indent'>- Redis</span><br><span class='indent'>- MongoDB</span><br><span class='indent'>- Git</span><br>Summary    : ><br><span class='indent'>Created hybrid app with another developer and designer. Used Ionic framework to run the app on web, Android and iOS. Implemented node API server using ActionHeroJS framework. Utilised very fast Redis database for text and MongoDB for media files with TTL</span>",
     a: "https://web.archive.org/web/20201229152017if_/http://squidler.com/",
   },
 
@@ -71,7 +71,7 @@ templateData.code = [
     h2: "Play with Particles",
     img: "img/playwithparticles.png",
     code:
-      "Completion : 09/2014<br>Front-end  : 100%<br>Back-end   : 0%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/orbit' target='_blank' rel='noopener'>mklilley/orbit</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br>Summary    : ><br><span class='indent'>Created an in-browser physics app that allows a user to control the motion of particles using clicks/touches. The front end is made with HTML5 and the backend is provided by <a href='https://github.com/mklilley/orbit' target='_blank'>GitHub pages</a>.</span>",
+      "Completion : 09/2014<br>Front-end  : 100%<br>Back-end   : 0%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/orbit' target='_blank' rel='noopener'>orbit</a> <i class='icon-github'></i><br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br>Summary    : ><br><span class='indent'>Created an in-browser physics app that allows a user to control the motion of particles using clicks/touches. The front end is made with HTML5 and the backend is provided by <a href='https://github.com/mklilley/orbit' target='_blank'>GitHub pages</a>.</span>",
     a: "https://mklilley.github.io/orbit/",
   },
 ];
