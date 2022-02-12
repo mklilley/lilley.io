@@ -395,15 +395,11 @@ table {
 /*---------Icons-----------*/
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?n39ey5');
-  src:  url('fonts/icomoon.eot?n39ey5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?n39ey5') format('truetype'),
-    url('fonts/icomoon.woff?n39ey5') format('woff'),
-    url('fonts/icomoon.svg?n39ey5#icomoon') format('svg');
+  src: url("fonts/icomoon.eot?n39ey5");
+  src: url("fonts/icomoon.eot?n39ey5#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?n39ey5") format("truetype"), url("fonts/icomoon.woff?n39ey5") format("woff"), url("fonts/icomoon.svg?n39ey5#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block;
-}
+  font-display: block; }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -414,21 +410,18 @@ table {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-earth:before {
-  content: "\e9ca";
-}
+  content: "\e9ca"; }
+
 .icon-twitter:before {
-  content: "\ea96";
-}
+  content: "\ea96"; }
+
 .icon-github:before {
-  content: "\eab0";
-}
+  content: "\eab0"; }
 
 /**
    * Main css
