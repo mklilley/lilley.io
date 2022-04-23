@@ -18,6 +18,9 @@ After you clone the repo, you will need to:
 
 You are now ready to start coding - head over to the `src` folder where you'll find the website source code and assets.
 
+**Notes: This site was originally made using node v12.10.0 and Gulp CLI version: 2.3.0 and Gulp
+Local version: 4.0.2**
+
 ## Build site
 
 - Run `gulp build`
