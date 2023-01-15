@@ -1,6 +1,6 @@
 const gulp = require("gulp"),
   concat = require("gulp-concat"),
-  sass = require("gulp-sass"),
+  sass = require("gulp-sass")(require("sass")),
   cleanCSS = require("gulp-clean-css"),
   minify = require("gulp-minify");
 
