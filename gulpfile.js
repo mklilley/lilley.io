@@ -65,7 +65,8 @@ async function copyFilesToBuild() {
       "src/manifest.json",
       "src/manifest.json",
       "src/browserconfig.xml",
-      "src/robots.txt"
+      "src/robots.txt",
+      "README.md"
     ])
     .pipe(gulp.dest("build/"));
   gulp.src("src/img/**/*").pipe(gulp.dest("build/img/"));
