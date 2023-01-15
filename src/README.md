@@ -19,4 +19,5 @@ Notes:
 
 ## HTML
 
-- The only thing you need to remember when in local development mode is to comment out the `<base>` tag on `line 30` so that the router doesn't give an error
+- Modify the template tags to change the structure of the pages
+- The templates are populated using data from `js/data.js`
