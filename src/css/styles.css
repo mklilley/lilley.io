@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Resets
  * --------------------------------------------------
@@ -98,22 +99,26 @@ video {
   border: 0;
   vertical-align: baseline;
   font: inherit;
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -121,17 +126,20 @@ q:after {
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 script {
-  display: none !important; }
+  display: none !important;
+}
 
 /* ==========================================================================
    Base
@@ -152,14 +160,16 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default margin.
  */
 body {
   margin: 0;
-  line-height: 1; }
+  line-height: 1;
+}
 
 /**
  * Remove default outlines.
@@ -171,7 +181,8 @@ a:focus,
 button:focus,
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* *
  * Remove tap highlight color
@@ -179,10 +190,12 @@ a:hover {
 a {
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+}
 
 a[href]:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* ==========================================================================
    Typography
@@ -192,13 +205,15 @@ a[href]:hover {
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address differences between Firefox and other browsers.
@@ -206,7 +221,8 @@ dfn {
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
@@ -216,25 +232,29 @@ kbd,
 pre,
 samp {
   font-size: 1em;
-  font-family: monospace, serif; }
+  font-family: monospace, serif;
+}
 
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
 pre {
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+}
 
 /**
  * Set consistent quote types.
  */
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  quotes: "“" "”" "‘" "’";
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -244,13 +264,16 @@ sup {
   position: relative;
   vertical-align: baseline;
   font-size: 75%;
-  line-height: 0; }
+  line-height: 0;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /**
  * Define consistent border, margin, and padding.
@@ -258,7 +281,8 @@ sub {
 fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
-  border: 1px solid #c0c0c0; }
+  border: 1px solid #c0c0c0;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
@@ -268,7 +292,8 @@ legend {
   padding: 0;
   /* 2 */
   border: 0;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * 1. Correct font family not being inherited in all browsers.
@@ -297,7 +322,8 @@ textarea {
   -webkit-font-smoothing: inherit;
   /* 5 */
   background-image: none;
-  /* 6 */ }
+  /* 6 */
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `importnt` in
@@ -305,7 +331,8 @@ textarea {
  */
 button,
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -315,7 +342,8 @@ input {
  */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -325,41 +353,45 @@ select {
  *  `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   cursor: pointer;
   /* 3 */
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *  (include `-moz` to future-proof).
  */
-input[type="search"] {
+input[type=search] {
   -webkit-box-sizing: content-box;
   /* 2 */
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
@@ -367,7 +399,8 @@ input[type="search"]::-webkit-search-decoration {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
-  border: 0; }
+  border: 0;
+}
 
 /**
  * 1. Remove default vertical scrollbar in IE 8/9.
@@ -377,10 +410,12 @@ textarea {
   overflow: auto;
   /* 1 */
   vertical-align: top;
-  /* 2 */ }
+  /* 2 */
+}
 
 img {
-  -webkit-user-drag: none; }
+  -webkit-user-drag: none;
+}
 
 /* ==========================================================================
    Tables
@@ -390,20 +425,21 @@ img {
  */
 table {
   border-spacing: 0;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 /*---------Icons-----------*/
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("fonts/icomoon.eot?n39ey5");
   src: url("fonts/icomoon.eot?n39ey5#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?n39ey5") format("truetype"), url("fonts/icomoon.woff?n39ey5") format("woff"), url("fonts/icomoon.svg?n39ey5#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block; }
-
-[class^="icon-"], [class*=" icon-"] {
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -412,16 +448,20 @@ table {
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .icon-earth:before {
-  content: "\e9ca"; }
+  content: "\e9ca";
+}
 
 .icon-twitter:before {
-  content: "\ea96"; }
+  content: "\ea96";
+}
 
 .icon-github:before {
-  content: "\eab0"; }
+  content: "\eab0";
+}
 
 /**
    * Main css
@@ -435,31 +475,37 @@ code {
   font-family: "Source Code Pro", Inconsolata, Consolas, monospace, sans-serif;
   color: #2d2d2d;
   font-size: 16px;
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 h1,
 h2 {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
-  color: #606369; }
+  color: #606369;
+}
 
 h1 {
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 h2 {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 a,
 a:active,
 a:hover,
 a:visited {
-  color: inherit; }
+  color: inherit;
+}
 
 ::-webkit-scrollbar {
-  display: none; }
+  display: none;
+}
 
-.flex-center, .nav, .view, .header, .view-content .page-content, .full-card {
+.flex-center, .full-card, .view-content .page-content, .header, .view, .nav {
   position: absolute;
   display: -webkit-box;
   display: -moz-box;
@@ -469,26 +515,30 @@ a:visited {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 .hidden {
   position: absolute;
   top: 0;
   height: 0;
   font-weight: bold;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .not-found-title {
   text-align: center;
   margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .not-found-message {
   text-align: center;
   margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 /*---------Navigation-----------*/
 .nav {
@@ -501,41 +551,50 @@ a:visited {
   width: 66.666%;
   max-width: 66.666%;
   transition: width 0.4s ease-out 0.2s, font-size 0.4s ease-out 0.2s, height 0.4s ease-out 0.2s, max-width 0.2s ease-out 0.2s;
-  font-size: 50px; }
-  .nav p {
-    transition: margin 0.4s ease-out 0.2s;
-    text-align: center;
-    margin: 0;
-    cursor: default;
-    width: 80%; }
-    .nav p.active {
-      font-weight: bold;
-      transition: margin 0.4s ease-out; }
+  font-size: 50px;
+}
+.nav p {
+  transition: margin 0.4s ease-out 0.2s;
+  text-align: center;
+  margin: 0;
+  cursor: default;
+  width: 80%;
+}
+.nav p.active {
+  font-weight: bold;
+  transition: margin 0.4s ease-out;
+}
 
 .expand .nav {
   transition: width 0.4s ease-out, font-size 0.4s ease-out, height 0.4s ease-out;
   font-size: 25px;
   height: 100%;
   width: 10vw;
-  max-width: 60px; }
-  .expand .nav p {
-    transition: margin 0.4s ease-out;
-    margin: 40px 0; }
+  max-width: 60px;
+}
+.expand .nav p {
+  transition: margin 0.4s ease-out;
+  margin: 40px 0;
+}
 
 /*---------Error page-----------*/
 .error {
   background-color: white;
   text-align: center;
   font-size: 30px;
-  line-height: 1.5; }
-  .error h1 {
-    font-weight: normal; }
-  .error.hide {
-    display: none; }
+  line-height: 1.5;
+}
+.error h1 {
+  font-weight: normal;
+}
+.error.hide {
+  display: none;
+}
 
 /*---------view-----------*/
 .view {
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /*---------header-----------*/
 .header {
@@ -546,58 +605,67 @@ a:visited {
   transition: opacity 0.2s ease-out 0s;
   height: 10vw;
   max-height: 60px;
-  cursor: default; }
-  .header.expand {
-    opacity: 1;
-    transition: opacity 0.2s ease-out 0.4s; }
+  cursor: default;
+}
+.header.expand {
+  opacity: 1;
+  transition: opacity 0.2s ease-out 0.4s;
+}
 
 /*---------content-----------*/
 .view-content {
   position: relative;
   height: 300px;
   width: 180px;
-  transition: width 0.4s ease-out 0.2s, height 0.4s ease-out 0.2s; }
-  .view-content > img {
-    transition: width 0.4s ease-out 0.2s, max-width 0s ease-out 0.2s;
-    width: 100%;
-    max-width: 180px;
-    position: absolute;
-    bottom: 0; }
-  .view-content > .page {
-    position: absolute;
-    bottom: 0;
-    box-sizing: border-box;
-    padding: 10vw;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0s linear 0.2s, opacity 0.2s ease-out;
-    background-color: white;
-    overflow: hidden; }
-  .view-content.expand {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    transition: width 0.4s ease-out, height 0.4s ease-out; }
-    .view-content.expand > img {
-      width: 30vw;
-      transition: width 0.4s ease-out; }
-    .view-content.expand > .page {
-      opacity: 1;
-      transition: visibility 0s linear 0s, opacity 0.2s ease-out 0.4s;
-      visibility: visible; }
-  .view-content .page-content {
-    position: relative;
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 5px;
-    height: 100%;
-    width: 100%;
-    background-color: #eaeaea;
-    flex-wrap: wrap;
-    overflow: auto; }
+  transition: width 0.4s ease-out 0.2s, height 0.4s ease-out 0.2s;
+}
+.view-content > img {
+  transition: width 0.4s ease-out 0.2s, max-width 0s ease-out 0.2s;
+  width: 100%;
+  max-width: 180px;
+  position: absolute;
+  bottom: 0;
+}
+.view-content > .page {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 10vw;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s linear 0.2s, opacity 0.2s ease-out;
+  background-color: white;
+  overflow: hidden;
+}
+.view-content.expand {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transition: width 0.4s ease-out, height 0.4s ease-out;
+}
+.view-content.expand > img {
+  width: 30vw;
+  transition: width 0.4s ease-out;
+}
+.view-content.expand > .page {
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 0.2s ease-out 0.4s;
+  visibility: visible;
+}
+.view-content .page-content {
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  background-color: #eaeaea;
+  flex-wrap: wrap;
+  overflow: auto;
+}
 
 /*---------cards-----------*/
 .card {
@@ -608,30 +676,37 @@ a:visited {
   padding: 5px;
   max-width: calc(100% - 20px);
   min-height: calc(100% - 20px);
-  margin: 10px; }
-  .card .image {
-    position: relative;
-    height: 25vh;
-    width: 100%; }
-    .card .image > img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: 50% 50%;
-      opacity: 0;
-      -webkit-transition: opacity 500ms;
-      -moz-transition: opacity 500ms;
-      -ms-transition: opacity 500ms;
-      transition: opacity 500ms; }
-    .card .image.loaded > img {
-      opacity: 1; }
-  .card > h2 {
-    margin-bottom: 10px; }
-  .card pre {
-    padding-top: 10px; }
-  .card code .indent {
-    padding-left: 25px;
-    display: inline-block; }
+  margin: 10px;
+}
+.card .image {
+  position: relative;
+  height: 25vh;
+  width: 100%;
+}
+.card .image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.card .image.loaded > img {
+  opacity: 1;
+}
+.card > h2 {
+  margin-bottom: 10px;
+}
+.card pre {
+  padding-top: 10px;
+}
+.card code .indent {
+  padding-left: 25px;
+  display: inline-block;
+}
 
 .full-card {
   position: relative;
@@ -641,27 +716,36 @@ a:visited {
   padding: 5px;
   width: calc(100% - 20px);
   min-height: calc(100% - 20px);
-  margin: 10px; }
-  .full-card.contact {
-    flex-direction: column; }
-  .full-card.full-card.info {
-    flex-wrap: wrap; }
-  .full-card p {
-    margin: 10px; }
-  .full-card img {
-    width: 100%;
-    max-width: 180px;
-    opacity: 0;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 500ms; }
-  .full-card.loaded img {
-    opacity: 1; }
-  .full-card .code {
-    width: 100%;
-    max-width: 500px; }
+  margin: 10px;
+}
+.full-card.contact {
+  flex-direction: column;
+}
+.full-card.full-card.info {
+  flex-wrap: wrap;
+}
+.full-card p {
+  margin: 10px;
+}
+.full-card img {
+  width: 100%;
+  max-width: 180px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.full-card.loaded img {
+  opacity: 1;
+}
+.full-card .code {
+  width: 100%;
+  max-width: 500px;
+}
 
 @media screen and (min-width: 600px) {
   .view .view-content .page {
-    padding: 60px; } }
+    padding: 60px;
+  }
+}
