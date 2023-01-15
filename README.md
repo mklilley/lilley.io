@@ -10,7 +10,7 @@ This project uses [gulp](https://gulpjs.com/) as the build tool.
 
 ## Getting started
 
-**Notes: To build this site, you must be using note v18 and npm v8.**
+**Notes: To build this site, you must be using node v18 and npm v8.**
 
 After you clone the repo, you will need to:
 
