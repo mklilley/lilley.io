@@ -4,8 +4,9 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "gulp": "gulp",
+    "build": "gulp build",
+    "vite": "vite src"
   },
   "author": "",
   "license": "ISC",

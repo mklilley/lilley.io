@@ -3,8 +3,8 @@
 This is the folder you will need to modify in order to make changes to the website.
 
 Notes:
-- You should first run `gulp` before you start to code - this watches for file changes
-- You can view the result of your coding by running `http-server -c-1` inside of this `src` folder
+- You should first run `npm run gulp` before you start to code - this watches for file changes
+- You can view the result of your coding by running `npm run vite` which launches a dev server with hot reloading
 
 ## JS
 

@@ -10,18 +10,17 @@ This project uses [gulp](https://gulpjs.com/) as the build tool.
 
 ## Getting started
 
+**Notes: To build this site, you must be using note v18 and npm v8.**
+
 After you clone the repo, you will need to:
 
-- [Install gulp](https://gulpjs.com/docs/en/getting-started/quick-start). This should be a simple as doing `npm install --global gulp-cli` on the command line.
-- run `npm install` to install the gulp dependencies and http-server
-- run `gulp` to start watching for file changes
+- run `npm install` to install the gulp dependencies and vite
+- run `npm run gulp` in one terminal to start watching for file changes
+- run `npm run vite` in other terminal to launch a dev server with hot reloading
 
 You are now ready to start coding - head over to the `src` folder where you'll find the website source code and assets.
 
-**Notes: This site was originally made using node v12.10.0 and Gulp CLI version: 2.3.0 and Gulp
-Local version: 4.0.2**
-
 ## Build site
 
-- Run `gulp build`
+- Run `npm run build`
 - You will then find a new folder called `build` inside of which is the processed and minified code and assets ready for deployment.
