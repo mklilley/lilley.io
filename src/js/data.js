@@ -8,6 +8,13 @@ var templateTagMap = {
 
 templateData.code = [
   {
+    h2: "Slidee",
+    img: "img/slidee.png",
+    code:
+      "Completion : 09/2022<br>Front-end  : NA<br>Back-end   : 100%<br>Design     : NA<br>Code       : <a href='https://github.com/mklilley/slidee' target='_blank' rel='noopener'>slidee</a> <i class='icon-github'></i> <br>Experience :<br><span class='indent'>- JavaScript</span><br><span class='indent'>- Node</span><br><span class='indent'>- Git</span><br><span class='indent'>- CI/CD</span><br>Summary    : ><br><span class='indent'>Created an npm wrapper around the Reveal.js HTML presentation framework. At its core, Slidee turns a folder of markdown files into Reveal.js presentations.</span>",
+    a: "https://www.npmjs.com/package/slidee",
+  },
+  {
     h2: "Swipee",
     img: "img/swipee.png",
     code:
