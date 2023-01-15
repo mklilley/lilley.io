@@ -9,6 +9,10 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18",
+    "npm": "8"
+  },
   "devDependencies": {
     "gulp": "4.0.2",
     "gulp-clean-css": "4.3.0",
