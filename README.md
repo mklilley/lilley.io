@@ -22,7 +22,7 @@ You are now ready to start coding - head over to the `src` folder where you'll f
 
 ## Build site
 
-**Notes: The preferred way to build the site is to use continuous deployment. See the `.github` folder for more details.**
+**Notes: The preferred way to build the site is to use continuous integration. See the `.github` folder for more details.**
 
 - Checkout the `dev` branch
 - Run `npm run build`
