@@ -49,7 +49,7 @@ templateData.code = [
     img: "img/thecurtainworks.png",
     code:
       "Completion : 11/2016<br>Front-end  : 20%<br>Back-end   : 20%<br>Design     : 5%<br>Experience :<br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span> <br><span class='indent'>- JavaScript</span><br><span class='indent'>- PHP</span><br><span class='indent'>- MySQL</span><br>Summary    : ><br><span class='indent'>Inherited code-base of e-commerce site. Extended the CMS to allow for bulk upload of product data. Added new and extended existing features to flesh out the initial design. Took the site live and am now CTO</span>",
-    a: "http://thecurtainworks.com",
+    a: "https://web.archive.org/web/20210922171651/https://thecurtainworks.com/",
   },
 
   {
