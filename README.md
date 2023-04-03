@@ -22,6 +22,8 @@ You are now ready to start coding - head over to the `src` folder where you'll f
 
 ## Build site
 
+**Notes: The preferred way to build the site is to use continuous deployment. See the `.github` folder for more details.**
+
 - Checkout the `dev` branch
 - Run `npm run build`
 - You will then find a new folder called `build` inside of which is the processed and minified code and assets ready for deployment.
