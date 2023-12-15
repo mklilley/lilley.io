@@ -8,6 +8,13 @@ var templateTagMap = {
 
 templateData.code = [
   {
+    h2: "Let's make rainbows",
+    img: "img/rainbows.png",
+    code:
+      "Completion : 06/2023<br>Front-end  : 100%<br>Back-end   : 0%<br>Design     : 100%<br>Code       : <a href='https://github.com/mklilley/lets-make-rainbows' target='_blank' rel='noopener'>lets-make-rainbows</a> <i class='icon-github'></i> <br>Experience :<br><span class='indent'>- JavaScript</span><br><span class='indent'>- HTML</span><br><span class='indent'>- CSS</span><br>Summary    : ><br><span class='indent'>An interactive digital experiment to simulate the physics of rainbows. The workhorse for this app is the p5.js library. It is deployed via github pages.</span>",
+    a: "https://mattlilley.com/lets-make-rainbows",
+  },
+  {
     h2: "Slidee",
     img: "img/slidee.png",
     code:
