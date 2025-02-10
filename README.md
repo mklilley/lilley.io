@@ -6,7 +6,7 @@ After spending a lot of time in the AngularJS world, I decided that I wanted to 
 
 Use the `dev` branch when you want to make changes to lilley.io - the live code lives in the `master` branch.
 
-This project uses [gulp](https://gulpjs.com/) as the build tool. As of Jan 2023 I am in the process of refactoring the codebase to use vite.
+This project uses [gulp](https://gulpjs.com/) as the build tool and in Jan 2023 I added vite just to make the dev server a little easier. The codebase should really be refactored to use better JS tools and standards... maybe I'll get around to this someday.
 
 ## Getting started
 
